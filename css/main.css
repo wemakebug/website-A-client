@@ -1,0 +1,368 @@
+body{
+  /*overflow: hidden;*/
+}
+.wrap{
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.section{
+  position: relative;
+}
+
+.head{
+  position: relative;
+}
+
+.head-canvas{
+  /*宽度js设置*/
+  width: 100%;
+  /*canvas 如果不加上height 100% 数值会有偏差*/
+  height: 100%;
+  position: absolute;
+  z-index: 30;
+  transition-duration: 6s;
+  transition-timing-function: ease-in-out;
+  opacity: 1;
+  /*display: none;*/
+}
+
+.head-image{
+  position: relative;
+  margin:0 -15px;
+}
+
+.head-arrow{
+  position: absolute;
+  width: 62%;
+  left: 19%;
+  top: -128px;
+}
+
+.head-arrow-arrow{
+  position: absolute;
+  width: 100%;
+  height: 128px;
+  z-index: 50;
+  cursor: pointer;
+}
+
+.head-arrow-arrow object,
+.head-arrow-arrow img{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  transform: rotateZ(-90deg);
+}
+
+.head-canvas-hide{
+  opacity: 0;
+}
+
+.head-image-cover{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .1;
+  z-index: 50;
+}
+
+.head-image-image{
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+  opacity: 0;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+  z-index: 40;
+}
+
+.head-image-image-active{
+  opacity: 1;
+}
+
+.nav{
+  position: relative;
+  font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+  box-shadow: 0px 0px 1px #232323;
+  line-height: 1;
+  width: 100%;
+  background-color: #fff;
+  z-index: 50;
+}
+
+.nav-active{
+  position: fixed;
+  top: 0;
+}
+
+.nav-logo{
+  position: relative;
+  background-image: url('http://7xsoiv.com2.z0.glb.clouddn.com/logo.png');
+  background-repeat: no-repeat;
+  height: 68px;
+  width: 100%;
+  background-size: contain;
+}
+
+.nav-group{
+  position: relative;
+}
+
+.nav-item{
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 27px 18px;
+  color: #323232;
+}
+
+.nav-item:hover{
+  cursor: pointer;
+  color: #232323;
+}
+
+.central-news{
+  position: relative;
+}
+
+.central-news-active{
+  margin-top: 68px;
+}
+
+.central-news-head{
+  text-align: center;
+}
+.central-news-head h3{
+  font-size: 42px;
+  margin: 34px 0 0 0;
+}
+.central-news-head p{
+  font-size: 18px;
+  margin: 0;
+}
+
+.line-1{
+  height: 2px;
+  display: inline-block;
+  width: 25%;
+  background-color: #BDBDBD;
+}
+
+.line-2{
+  height: 8px;
+  width: 100%;
+  display: inline-block;
+  background-color: #CECECE;
+}
+
+.central-news-icon{
+  text-align: center;
+}
+.central-news-icon-img{
+  width: 135px;
+  height: 125px;
+}
+.central-news-icon-name{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -24px;
+  cursor: default;
+}
+
+.central-news-item{
+  font-size: 13px;
+  color: #666;
+}
+.central-news-out{
+  margin: 25px;
+}
+.central-news-title{
+  cursor: default;
+  color: inherit;
+  text-decoration: blink;
+  max-width: 280px;
+}
+.central-news-title:hover{
+  color: #028796;
+  text-shadow: 0px 0px 1px #3DDDEF;
+  text-decoration: blink;
+}
+.central-news-posted-time{
+  float: right;
+}
+.central-news-wrap{
+  margin: 20px 0px 60px 0px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+.line-3{
+  position: relative;
+  height: 60px;
+  background-color: #ccc;
+}
+.bc2{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.bc2-text{
+  position: absolute;
+  width: 100%;
+  top: 96px;
+  font-size: 32px;
+  color: #fafafa;
+}
+.central-profile-head{
+  margin: 20px 0;
+  line-height: 1;
+}
+.central-profile-head h3{
+  font-size: 42px;
+}
+.central-profile-head p{
+  font-size: 18px;
+  margin: 0;
+  color: #969696;
+}
+.central-profile-item-icon{
+  position: relative;
+  width: 120%;
+  height: 125px;
+  background-image: url('http://7xsoiv.com2.z0.glb.clouddn.com/icon.1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.central-profile-item-text p{
+  font-size: 12px;
+}
+.central-profile{
+  position: relative;
+  margin: 20px 0 50px 0;
+}
+.central-profile-group{
+  display: inline-block;
+  margin: 30px 0;
+}
+.bc3{
+  position: relative;
+  margin: 0 -15px;
+}
+.bc3-text{
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  text-align: center;
+  font-size: 21px;
+  color: #fafafa;
+}
+.innovation-practice-head{
+  margin: 35px 0;
+}
+.innovation-practice-head h3{
+  margin: 0;
+}
+.innovation-practice-head p{
+  color: #969696;
+  margin: 0;
+}
+.innovation-practice-out{
+  position: relative;
+  padding: 50px 0px;
+  width: 100%;
+  background-color: #F0F0F0;
+  display: inline-block;
+}
+.innovation-practice-group{
+  position: relative;
+  display: inline-block;
+  width: 96%;
+  left: 2%;
+}
+.innovation-practice-item{
+  border-bottom: 2px solid #39A38F;
+  background-color: #fafafa;
+  line-height: 1;
+  width: 90%;
+  left: 5%;
+  position: relative;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0px 0px 1px #fafafa;
+  cursor: pointer;
+}
+.innovation-practice-item:hover{
+  background-color: #39A38F;
+  transform: scale(1.05);
+}
+.innovation-practice-item:hover p{
+  color: #fafafa;
+}
+.innovation-practice-item h4{
+  text-indent: 20px;
+}
+.innovation-practice-item p{
+  text-indent: 20px;
+  color: #969696;
+}
+.innovation-practice-item-img img{
+  width: 100%;
+  height: 260px;
+}
+.innovation-practice-item-des{
+  padding: 15px 0px;
+}
+.laboratory-introduction-lab{
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+.laboratory-introduction-lab img{
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+.laboratory-introduction-lab:hover img{
+  transform: scale(.5);
+}
+.laboratory-introduction-lab .laboratory-des{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  transform: scale(.6);
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  z-index: -1;
+  background-color: #39A38F;
+  color: #fafafa;
+}
+.laboratory-introduction-lab:hover .laboratory-des{
+  transform: scale(.8);
+}
+.laboratory-introduction-lab .laboratory-head{
+  top: 25px;
+  position: relative;
+}
+.laboratory-introduction-lab .laboratory-foot{
+  bottom: -180px;
+  position: relative;
+}
+.footer{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: #232323;
+  margin-top: 50px;
+}
