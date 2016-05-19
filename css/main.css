@@ -124,7 +124,10 @@ body{
   padding: 27px 18px;
   color: #323232;
 }
-
+.nav-item a {
+  color:#323232;
+  text-decoration: none;
+}
 .nav-item:hover{
   cursor: pointer;
   color: #232323;
