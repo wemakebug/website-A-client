@@ -1,0 +1,30 @@
+
+
+/*下载中心*/
+tr{
+	width:100%;
+	font-size: 15px;
+	border-bottom:dashed 1px RGBA(198, 197, 197, 0.24);
+	color: black;
+}
+
+td{
+	height:40px;
+}
+
+th{
+	width:91%;
+	height:40px;
+	margin-left: 20px;
+}
+
+.buttom{
+	height:50px;
+}
+a{
+	color:rgba(30, 35, 39, 0.71);
+}
+a:hover{
+	color: #2F75A9;
+	text-decoration:none;
+}
