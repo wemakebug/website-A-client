@@ -61,7 +61,7 @@ $(function(){
         doc_height:$(document).height(),
         _slide:5,
         nav_height:nav_height,
-        innovationPracticeSrc:"/innovationPractice"
+        innovationPracticeSrc:"./innovationPractice.html"
       })
 
       return this.setup()
@@ -139,7 +139,7 @@ $(function(){
     },
 
     preLoadHeaderImage:function(img,src,callback){
-      preLoadImage(img,src,callback)
+      preLoadImage(img,src,callback);
     },
 
     setWidth:function(e,width){
