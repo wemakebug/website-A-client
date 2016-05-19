@@ -61,6 +61,7 @@ ul {
 	font-weight: 600;
 	margin-left:8px;
 }
+
 .right-content-item {
 	margin-top: 20px;
 	margin-bottom: 5px;
@@ -87,6 +88,10 @@ ul {
 	float: left;
 	margin-left:15px;	
 }
+.news-text h4 {
+	color: #656565;
+	font-weight: 600;
+}
 .news-text span{
 	margin-right: 0px;
 	float: right;
@@ -96,4 +101,5 @@ ul {
 .news-text p {
 	margin-top:30px;
 	text-indent:2em;
+	color: #323232;
 }
