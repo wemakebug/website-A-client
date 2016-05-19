@@ -62,9 +62,10 @@ ul {
 	margin-left:8px;
 }
 .right-content-item {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 5px;
 	width: 100%;
+	min-height: 160px;
 	border-bottom:solid 1px #F3F2F2;
 	clear: both;
 }
@@ -81,7 +82,7 @@ ul {
 	display: inherit;
 }
 .news-text {
-	width: 70%;
+	width: 65%;
 	min-height: 150px;
 	float: left;
 	margin-left:15px;	
