@@ -130,7 +130,7 @@ $(function(){
       // crossOrigin 需要设置在src属性设置前先设置
       m.crossOrigin = "anonymous"
       m.src = 'http://7xsoiv.com2.z0.glb.clouddn.com/img-1.jpg?imageView2/2/w/500/h/500/interlace/0/q/100'
-      this.preLoadHeaderImage(image,'//7xsoiv.com2.z0.glb.clouddn.com/img-1.jpg',function(){
+      this.preLoadHeaderImage(image,'http://7xsoiv.com2.z0.glb.clouddn.com/img-1.jpg',function(){
         image.addClass('head-image-image-active')
         canvas.addClass('head-canvas-hide')
       })

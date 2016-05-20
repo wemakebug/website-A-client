@@ -31,7 +31,7 @@
           <div class="col-md-7"  >
             <div class="nav-group"  style ="float:left;">
               <div class="nav-item"><a href="../../index.html">首页</a></div>
-              <div class="nav-item"><a href="../dynamic/newsLists.html">中心动态</a></div>
+              <div class="nav-item"><a href="newsListCentralNews.html">中心动态</a></div>
               <div class="nav-item"><a href="" onclick="message();">创新实验室</a></div>
               <div class="nav-item"><a href="" onclick="message();">人才培养</a></div>
               <div class="nav-item"><a href="" onclick="message();">学生社团</a></div>
@@ -48,9 +48,15 @@
 				<h4><span><img src="../../images/icon.5.png" alt=""></span><span>中心动态</span></h4>
 			</div>
 			<ul>
-				<li class="left-nav-item"><a href=""><span>·</span>中心新闻</a></li>
-				<li class="left-nav-item  "><a href=""><span>·</span>通知通告</a></li>
-				<li class="left-nav-item  this-left-nav-item"><a href=""><span>·</span>实事动态</a></li>
+				<li class="left-nav-item">
+				<a href="newsListCentralNews.html"><span>·</span>中心新闻</a>
+				</li>
+				<li class="left-nav-item">
+					<a href="newsListNotice.html"><span>·</span>通知通告</a>
+				</li>
+				<li class="left-nav-item  this-left-nav-item">
+					<a href="newsListHotNews.html"><span>·</span>实事动态</a>
+				</li>
 			</ul>
 		</div>
 		<div class="right-content">
@@ -73,9 +79,8 @@
 			</div>
 		</div>
 	</div>
-	 <!-- 这里构建底部栏 -->
-    <footer class="footer">
 
-    </footer>
+    <script type="text/javascript" src="../../js/nav.js"></script>
+    <script type="text/javascript">		$('.nav-item').eq(1).addClass('nav-item-active');  </script>
 </body>
 </html>
