@@ -1,8 +1,27 @@
 $(function(){
+	/**
+	 * 
+	 */
+	var 
+	$nav = $('.nav'),
+	$cn  = $('.central-news'),
+	old_top = 0,
+	nav_top = $nav.offset().top
+	;
 
-	var $nav = $('#nav');
+	$(window).on('scroll',NavHandler)
 
-	var tempelete = $('<div></div>');
+	function NavHandler(e){
+      var current_top = $(document).scrollTop()
 
-	$nav.append(tempelete);
+      if(current_top >= nav_top) {
+        $nav.addClass('nav-active')
+        $cn.addClass('central-news-active')
+      } else {
+        $nav.removeClass('nav-active')
+        $cn.removeClass('central-news-active')
+      }
+
+    }
+
 })
