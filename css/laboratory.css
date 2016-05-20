@@ -1,0 +1,65 @@
+.laboratory1-head{
+	width:100%;
+	height:auto;
+	margin-top: 60px;
+}
+.left-head{
+	margin-left: 15%;
+	float: left;
+	width: 12%;
+	background-color: red;
+	height: 65px;
+	font-size: 48px;
+	text-align: right;
+	padding: 0px 15px 0px 0px;
+	color: #fefbf7;
+}
+.right-head p{
+	font-size: 20px;
+	color: red;
+}
+.laboratory1-body{
+	height:500px;
+	margin-top: 40px;
+}
+.laboratory1-left{
+	width:50%;
+	float:left;
+}
+.laboratory1-left1{
+	width:60%;
+	margin-left: 40%;
+}
+.laboratory1-left2{
+	margin-left: 40%;
+	color:rgba(32, 32, 36, 0.6);
+}
+.laboratory1-left1 p{
+	color: rgb(231, 153, 120);
+	margin-top: -12px;
+	font-size: 12px;
+}
+.laboratory1-left3{
+	margin-left: 40%;
+}
+.laboratory1-right{
+	float:left;
+	width:50%;
+}
+.laboratory1-right1{
+	width:60%;
+	margin-left: 15%;
+}
+.laboratory1-right1 p{
+	color: rgb(231, 153, 120);
+	margin-top: -12px;
+	font-size: 12px;
+}
+.laboratory1-right2{
+	margin-left: 15%;
+	color:rgba(32, 32, 36, 0.6);
+	width:60%;
+}
+.laboratory1-right3{
+	margin-left: 15%;
+}
