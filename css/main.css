@@ -266,6 +266,11 @@ a:hover{
 .central-profile-item-text p{
   font-size: 12px;
 }
+.central-profile-item-text h4{
+  padding: 2px 0;
+  border-bottom: 1px solid #323232;
+  display: inline-block;
+}
 .central-profile{
   position: relative;
   margin: 20px 0 50px 0;
