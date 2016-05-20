@@ -227,7 +227,7 @@ $(function(){
       var set = function(v) {
         var current_top = $(document).scrollTop(),
             dis = value - current_top
-        console.log(v,current_top,dis)
+
         if(Math.abs(dis) < 30){
           $(document).scrollTop(value)
         } else {
@@ -248,10 +248,10 @@ $(function(){
 
       return this
     }
-
-
   }
-
   app();
 
+
+
+  
 })
