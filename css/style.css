@@ -71,11 +71,11 @@ ul {
 	clear: both;
 }
 .news-img {
-	margin:10 auto; 
-	float: left;
-/*	float: left;*/
-	min-height: 150px;
-	display: inherit;
+    float: left;
+    width: 250px;
+    max-height: 160px;
+    display: inherit;
+    overflow: hidden;
 }
 .news-text {
 	width: 65%;
